@@ -1,4 +1,4 @@
-@using Microsoft.AspNetCore.Identity
+﻿@using Microsoft.AspNetCore.Identity
 @using WebApplication.Models
 
 @inject SignInManager<ApplicationUser> SignInManager
@@ -20,7 +20,7 @@
 else
 {
     <ul class="nav navbar-nav navbar-right">
-        <li><a asp-controller="Account" asp-action="Register">Register</a></li>
-        <li><a asp-controller="Account" asp-action="Login">Log in</a></li>
+        <li><a asp-controller="Account" asp-action="Register">Đăng ký</a></li>
+        <li><a asp-controller="Account" asp-action="Login">Đăng nhập</a></li>
     </ul>
 }
