@@ -26,6 +26,13 @@ namespace WebApplication.Controllers
 
             return View();
         }
+        
+        public IActionResult ElectricInvoice()
+        {
+            ViewData["Message"] = "Your contact page.";
+
+            return View();
+        }
 
         public IActionResult Error()
         {
