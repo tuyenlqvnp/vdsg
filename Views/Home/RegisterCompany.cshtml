@@ -1,0 +1,62 @@
+﻿@{
+    ViewData["Title"] = "About";
+}
+<br />
+<form action="../Customers/Add" method="post">
+    <table width="100%">
+        <tr>
+            <td align="center">
+                <table border="1" style="text-align:center;">
+                    <tr>
+                        <td colspan="2" style="background-color:yellow;"><h3><b>Đăng ký thông tin công ty</b></h3></td>
+                    </tr>
+                    <tr>
+                        <td style="background-color:red;color:white">Mã số thuế</td>
+                        <td><input type="text" name="taxcode" /></td>
+                    </tr>
+                    <tr>
+                        <td style="background-color:red;color:white">Tên công ty</td>
+                        <td><input type="text" name="cusname" /></td>
+                    </tr>
+                    <tr>
+                        <td style="background-color:red;color:white">Địa chỉ</td>
+                        <td><input type="text" name="address" /></td>
+                    </tr>
+                    <tr>
+                        <td style="background-color:red;color:white">Tên người liên hệ</td>
+                        <td><input type="text" name="contact_name" /></td>
+                    </tr>
+                    <tr>
+                        <td style="background-color:red;color:white">Điện thoại người liên hệ</td>
+                        <td><input type="text" name="tel" /></td>
+                    </tr>
+                    <tr>
+                        <td style="background-color:red;color:white">Email</td>
+                        <td><input type="text" name="email" /></td>
+                    </tr>
+                    <tr>
+                        <td style="background-color:red;color:white">Số hợp đồng</td>
+                        <td><input type="text" name="contract_code" /></td>
+                    </tr>
+                    <tr>
+                        <td style="background-color:red;color:white">Tháng</td>
+                        <td><input type="text" name="renews" /></td>
+                    </tr>
+                    <tr>
+                        <td style="background-color:red;color:white">Gói cước</td>
+                        <td><input type="text" name="contents" /></td>
+                    </tr>
+                    <tr>
+                        <td style="background-color:red;color:white">Giá</td>
+                        <td><input type="text" name="price" /></td>
+                    </tr>
+                    <tr>
+                        <td style="background-color:red;color:white">Ghi chú</td>
+                        <td><input type="text" name="note_contract_detail" /></td>
+                    </tr>
+                    <tr><td colspan="2" align="center" style="background-color:aqua"><br /><input type="submit" value="Đăng ký" /></td></tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</form>
