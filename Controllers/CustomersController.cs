@@ -18,7 +18,8 @@ namespace vdsg_local.Controllers
         
         public IActionResult Add(string taxcode, string cusname, string address,string contact_name, string tel, string email,string contract_code,string renews,string contents,string price, string note_contract_detail)
         {
-            var connString = "Host=localhost;Username=postgres;Password=1234567;Database=postgres";
+            //var connString = "Host=localhost;Username=postgres;Password=1234567;Database=postgres";
+            var connString = "Host=ec2-23-21-220-48.compute-1.amazonaws.com;Username=zqtmwnpauogptz;Password=eccd2d101e32f686c675392760bde893e91c293db73ad76a4ad3e034e774f1ff;Database=d5kv8acvn4i7it";
 
             using (var conn = new NpgsqlConnection(connString))
             {
