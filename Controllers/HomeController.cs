@@ -40,6 +40,11 @@ namespace WebApplication.Controllers
             return View();
         }
 
+		public IActionResult RegisterCompany()
+        {
+            return View();
+        }
+        
         public IActionResult Error()
         {
             return View();
